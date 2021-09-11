@@ -1,4 +1,4 @@
-alert("Selamat datang di Bookself Apps")
+alert("Selamat datang di Schedule Activity Apps")
 name = prompt("Silahkan Ketik nama depan anda: ")
 while (name.length == 0){
   name = prompt("Silahkan Ketik nama depan anda dengan benar: ")
