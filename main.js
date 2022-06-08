@@ -1,9 +1,9 @@
-alert("Selamat datang di Schedule Activity Apps")
-name = prompt("Silahkan Ketik nama depan anda: ")
+alert("Welcome to Bookself Apps")
+name = prompt("Please Type your first name: ")
 while (name.length == 0){
-  name = prompt("Silahkan Ketik nama depan anda dengan benar: ")
+  name = prompt(" Please type your first name correctly:")
 }
-alert("Terima kasih");
+alert("Thank You");
 const nama = name;
 
 
