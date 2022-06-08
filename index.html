@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="rgba(233, 61, 107, .7)" />
   
-  <title>Activity Schedule</title>
+  <title>Library Management</title>
   
   <link rel="stylesheet" href="style.css">
 </head>
@@ -24,12 +24,12 @@
         <p class="user-bio">Web Development<br>Kabupaten Tegal, Jawa Tengah</b></p>
       </div>
       <br>
-      <h4 class="label">Perubahan</h4>
+      <h4 class="label">Changed</h4>
       <div class="my-container icons">
         <div class="book-total">
           <ul>
             <li>
-              <p>Total Kegiatan</p>
+              <p>Book Total</p>
               <h4 id="totalBuku">0</h4>
             </li>
           </ul>
@@ -38,24 +38,24 @@
            <div class="add-book" id="add-book">
             <i class="fi-sr-add"></i>
           </div>
-          <h5 style="color: black; text-align: center;";>Tambah Kegiatan</h5>
+          <h5 style="color: black; text-align: center;";>Add Book</h5>
         </div>
       </div>
     </div>
     <div class="col-2">
       <div class="my-container welcome">
-        <h1>Selamat Datang <b><span id="name"></span><b></h1>
-        <p>Buat harimu produktif dengan kegiatan yang terjadwal dan terencana.<br>Yuk atur kegiatanmu agar lebih tertata dan rapi.</p>
+        <h1>Welcome <b><span id="name"></span><b></h1>
+        <p>Make your book scheduled and planned.<br>Let's organize your book to make it more organized and tidy.</p>
       </div>
       
       
       <div class="content-book">
         <div class="unread" id="unread">
-          <h4 class="label">Belum Tercapai</h4>
+          <h4 class="label">Uncompleted</h4>
         </div>
         
          <div class="read" id="read">
-          <h4 class="label">Telah Tercapai</h4>
+          <h4 class="label">Completed</h4>
         </div>
       </div>
     </div>
@@ -63,22 +63,22 @@
 
     <div id="result">
         <section class="my-container">
-            <h2>Tambah Kegiatan</h2>
+            <h2>Add Book</h2>
             <form id="form">
                 <div class="input-group">
-                    <input type="text" id="title" placeholder="judul kegiatan..." class="input-form"
+                    <input type="text" id="title" placeholder="Title Book..." class="input-form"
                         maxlength="120" pattern="^[a-zA-Z0-9_ ]*$" required />
                 </div>
                 <div class="input-group">
-                    <input type="text" id="writer" placeholder="tipe kegiatan..." class="input-form"
+                    <input type="text" id="writer" placeholder="Type..." class="input-form"
                         maxlength="60" pattern="^[a-zA-Z0-9_ ]*$" required />
                 </div>
                 <div class="input-group">
-                    <input type="date" id="year" placeholder="tanggal selesai " class="input-form" min="1900" max="2022" />
+                    <input type="date" id="year" placeholder="Date Returned" class="input-form" min="1900" max="2022" />
                 </div>
                 <div class="button-group">
-                    <button type="reset" class="close" id="close">Batal</button>
-                    <button type="submit" id="save">Simpan</button>
+                    <button type="reset" class="close" id="close">Cancel</button>
+                    <button type="submit" id="save">Save</button>
                 </div>
             </form>
         </section>
